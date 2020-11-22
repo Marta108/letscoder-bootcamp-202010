@@ -1,3 +1,5 @@
+
+
 module.exports = {
     validateEmail(email) {
         if (typeof email !== 'string') throw new TypeError(`${email} is not an e-mail`)
@@ -34,5 +36,18 @@ module.exports = {
         if (typeof token !== 'string') throw new TypeError(token + ' is not a token')
 
         if (!token.trim().length) throw new Error('token is empty or blank')
-    }
+    },
+    validateText(text) {
+        if (typeof text !== 'string') throw new TypeError(text + ' is not a text')
+        if (!text.trim().length) throw new Error('text is empty or blank')
+    },
+    validateTag(tag){
+        if (!(tag instanceof Array)) throw new Error( tag + 'is not an array')
+
+    },
+
+    validateVisibility(visibility){
+        if (typeof visibility !== 'string') throw new TypeError(visibility + ' is not a text')
+        if (!visibility.trim().length) throw new Error('text is empty or blank')
+    },
 }

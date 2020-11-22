@@ -6,10 +6,11 @@ import { authenticateUser, registerUser } from './logic'
 
 
 function App() {
-  const [view, setView] = useState('sign-in')
+  const [view, setView] = useState('sign-up')
 
 
   const handleSignUp = (fullname, email, password) => {
+    try {
 
     registerUser(fullname, email, password, (error) => {
 
@@ -17,6 +18,9 @@ function App() {
 
       setView('sign-in')
     })
+      } catch (error) {
+        alert(error.message)
+      }
 
   }
 
@@ -37,16 +41,14 @@ function App() {
       alert(error.message)
     }
   }
-
-
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello, Marta!</h1>
+        <h1>Welcome to Notes App!</h1>
 
         {view === 'sign-up' && <SignUp onSignUp={handleSignUp} goToSignIn={handleGoToSignIn} />}
         {view === 'sign-in' && <SignIn onSignIn={handleSignIn} />}
-        {view === 'home' && <Home></Home>}
+        {view === 'home' && <Home/>}
 
         <img src={logo} className="App-logo" alt="logo" />
         <p>

@@ -57,3 +57,219 @@ info 2020-11-19T16:18:12.894Z - stopping server
 info 2020-11-19T16:18:24.380Z - server running on port 4000
 info 2020-11-19T16:22:21.859Z - stopping server
 info 2020-11-19T16:22:25.836Z - server running on port 4000
+info 2020-11-20T09:08:48.248Z - stopping server
+info 2020-11-20T11:08:51.668Z - server running on port 4000
+info 2020-11-20T11:16:09.797Z - server running on port 4000
+info 2020-11-20T11:16:23.040Z - server running on port 4000
+info 2020-11-20T11:16:37.172Z - server running on port 4000
+info 2020-11-20T11:17:04.428Z - server running on port 4000
+info 2020-11-20T11:18:05.150Z - server running on port 4000
+info 2020-11-20T11:18:13.464Z - server running on port 4000
+info 2020-11-20T11:18:25.009Z - server running on port 4000
+info 2020-11-20T11:18:33.508Z - server running on port 4000
+info 2020-11-20T11:26:25.988Z - server running on port 4000
+info 2020-11-20T11:32:00.131Z - server running on port 4000
+error 2020-11-20T11:54:14.899Z - TypeError: undefined is not a text
+error 2020-11-20T11:54:17.205Z - TypeError: undefined is not a text
+error 2020-11-20T11:54:17.958Z - TypeError: undefined is not a text
+error 2020-11-20T11:54:18.150Z - TypeError: undefined is not a text
+error 2020-11-20T11:54:18.573Z - TypeError: undefined is not a text
+error 2020-11-20T11:54:18.749Z - TypeError: undefined is not a text
+error 2020-11-20T11:54:57.580Z - TypeError: undefined is not a text
+error 2020-11-20T11:54:58.577Z - TypeError: undefined is not a text
+error 2020-11-20T11:55:04.835Z - TypeError: undefined is not a text
+error 2020-11-20T11:55:05.646Z - TypeError: undefined is not a text
+error 2020-11-20T11:55:06.481Z - TypeError: undefined is not a text
+error 2020-11-20T11:55:06.909Z - TypeError: undefined is not a text
+error 2020-11-20T11:55:07.238Z - TypeError: undefined is not a text
+error 2020-11-20T11:55:07.478Z - TypeError: undefined is not a text
+error 2020-11-20T11:55:07.685Z - TypeError: undefined is not a text
+info 2020-11-20T13:59:34.315Z - server running on port 4000
+info 2020-11-20T20:37:50.216Z - server running on port 4000
+info 2020-11-20T20:38:27.335Z - server running on port 4000
+info 2020-11-20T20:47:50.309Z - starting server
+info 2020-11-20T21:21:35.235Z - starting server
+info 2020-11-20T21:26:10.902Z - starting server
+info 2020-11-20T21:26:11.964Z - starting server
+info 2020-11-20T21:28:05.303Z - starting server
+info 2020-11-20T21:28:13.567Z - starting server
+info 2020-11-20T21:28:33.075Z - starting server
+info 2020-11-20T21:28:43.100Z - starting server
+info 2020-11-20T21:29:44.468Z - starting server
+info 2020-11-21T00:13:57.945Z - server running on port 4000
+info 2020-11-21T08:34:39.487Z - server running on port 4000
+info 2020-11-21T09:02:17.509Z - server running on port 4000
+info 2020-11-21T09:02:27.353Z - server running on port 4000
+info 2020-11-21T11:44:18.597Z - server running on port 4000
+info 2020-11-21T12:13:02.096Z - stopping server
+info 2020-11-21T18:38:40.172Z - server running on port 4000
+info 2020-11-21T18:39:10.218Z - server running on port 4000
+info 2020-11-21T19:36:19.467Z - server running on port 4000
+info 2020-11-21T19:37:07.630Z - server running on port 4000
+info 2020-11-21T19:37:47.439Z - stopping server
+info 2020-11-21T19:37:50.662Z - server running on port 4000
+info 2020-11-21T19:41:20.088Z - server running on port 4000
+info 2020-11-21T19:44:12.421Z - stopping server
+info 2020-11-21T19:44:17.096Z - server running on port 4000
+info 2020-11-21T23:18:11.659Z - server running on port 4000
+info 2020-11-21T23:27:02.696Z - starting server
+info 2020-11-21T23:28:30.580Z - starting server
+info 2020-11-21T23:29:16.276Z - starting server
+info 2020-11-21T23:33:03.403Z - starting server
+info 2020-11-21T23:33:12.552Z - starting server
+info 2020-11-21T23:35:04.051Z - starting server
+info 2020-11-21T23:36:15.594Z - starting server
+info 2020-11-21T23:37:29.067Z - starting server
+info 2020-11-21T23:38:53.336Z - starting server
+info 2020-11-21T23:39:53.076Z - starting server
+info 2020-11-21T23:39:53.111Z - server running on port 4000
+info 2020-11-21T23:40:37.416Z - stopping server
+info 2020-11-21T23:40:39.543Z - starting server
+info 2020-11-21T23:40:39.577Z - server running on port 4000
+info 2020-11-21T23:48:11.815Z - starting server
+info 2020-11-21T23:48:11.852Z - server running on port 4000
+info 2020-11-21T23:48:56.534Z - starting server
+info 2020-11-21T23:48:56.570Z - server running on port 4000
+info 2020-11-21T23:50:12.559Z - starting server
+info 2020-11-21T23:50:12.593Z - server running on port 4000
+info 2020-11-21T23:51:15.832Z - starting server
+info 2020-11-21T23:51:15.880Z - server running on port 4000
+info 2020-11-21T23:53:25.185Z - starting server
+info 2020-11-21T23:53:25.219Z - server running on port 4000
+info 2020-11-21T23:53:29.632Z - starting server
+info 2020-11-21T23:53:29.666Z - server running on port 4000
+error 2020-11-21T23:56:06.338Z - ReferenceError: fs is not defined
+info 2020-11-21T23:57:07.166Z - starting server
+info 2020-11-21T23:57:07.203Z - server running on port 4000
+info 2020-11-21T23:57:49.429Z - starting server
+info 2020-11-21T23:57:49.466Z - server running on port 4000
+error 2020-11-21T23:58:37.715Z - Error: email benitobeni@mail.com already registered
+error 2020-11-22T00:06:51.789Z - Error: wrong credentials
+error 2020-11-22T00:07:41.153Z - Error: wrong credentials
+info 2020-11-22T00:10:03.630Z - stopping server
+info 2020-11-22T09:36:14.955Z - starting server
+info 2020-11-22T09:36:14.993Z - server running on port 4000
+error 2020-11-22T09:36:48.584Z - Error: id length is not 31
+info 2020-11-22T09:40:19.464Z - starting server
+info 2020-11-22T09:40:19.502Z - server running on port 4000
+info 2020-11-22T09:40:53.327Z - starting server
+info 2020-11-22T09:40:53.363Z - server running on port 4000
+info 2020-11-22T09:42:45.951Z - starting server
+info 2020-11-22T09:42:45.986Z - server running on port 4000
+info 2020-11-22T09:43:44.984Z - starting server
+info 2020-11-22T09:43:45.020Z - server running on port 4000
+info 2020-11-22T09:44:31.659Z - starting server
+info 2020-11-22T09:44:31.693Z - server running on port 4000
+info 2020-11-22T09:44:42.329Z - starting server
+info 2020-11-22T09:44:42.363Z - server running on port 4000
+info 2020-11-22T09:47:34.090Z - starting server
+info 2020-11-22T09:47:34.125Z - server running on port 4000
+info 2020-11-22T09:57:47.286Z - starting server
+info 2020-11-22T09:57:47.324Z - server running on port 4000
+info 2020-11-22T09:57:57.892Z - starting server
+info 2020-11-22T09:57:57.926Z - server running on port 4000
+error 2020-11-22T09:58:53.193Z - Error: id length is not 31
+info 2020-11-22T09:59:37.888Z - starting server
+info 2020-11-22T09:59:37.927Z - server running on port 4000
+info 2020-11-22T10:01:49.423Z - starting server
+info 2020-11-22T10:01:49.460Z - server running on port 4000
+info 2020-11-22T10:02:39.383Z - stopping server
+info 2020-11-22T10:02:41.671Z - starting server
+info 2020-11-22T10:02:41.706Z - server running on port 4000
+error 2020-11-22T10:03:56.517Z - Error: id length is not 31
+info 2020-11-22T10:05:06.933Z - starting server
+info 2020-11-22T10:05:06.972Z - server running on port 4000
+info 2020-11-22T10:06:38.063Z - starting server
+info 2020-11-22T10:06:38.108Z - server running on port 4000
+error 2020-11-22T10:06:51.536Z - Error: id length is not 31
+info 2020-11-22T10:07:49.481Z - starting server
+info 2020-11-22T10:07:49.519Z - server running on port 4000
+error 2020-11-22T10:08:02.947Z - Error: id length is not 31
+info 2020-11-22T10:09:51.584Z - starting server
+info 2020-11-22T10:09:51.621Z - server running on port 4000
+error 2020-11-22T10:10:04.531Z - Error: id length is not 31
+info 2020-11-22T10:10:27.188Z - starting server
+info 2020-11-22T10:10:27.229Z - server running on port 4000
+info 2020-11-22T10:12:09.376Z - starting server
+info 2020-11-22T10:12:09.414Z - server running on port 4000
+error 2020-11-22T10:12:24.436Z - Error: id length is not 31
+info 2020-11-22T10:14:42.360Z - starting server
+info 2020-11-22T10:14:42.395Z - server running on port 4000
+info 2020-11-22T10:18:42.732Z - starting server
+info 2020-11-22T10:18:42.770Z - server running on port 4000
+info 2020-11-22T10:19:06.926Z - stopping server
+info 2020-11-22T10:19:08.828Z - starting server
+info 2020-11-22T10:19:08.866Z - server running on port 4000
+info 2020-11-22T10:20:27.179Z - starting server
+info 2020-11-22T10:20:27.213Z - server running on port 4000
+info 2020-11-22T10:28:26.166Z - starting server
+info 2020-11-22T10:28:26.202Z - server running on port 4000
+info 2020-11-22T10:29:40.141Z - starting server
+info 2020-11-22T10:29:40.182Z - server running on port 4000
+info 2020-11-22T10:53:13.187Z - starting server
+info 2020-11-22T10:53:13.224Z - server running on port 4000
+info 2020-11-22T11:14:09.099Z - starting server
+info 2020-11-22T11:14:09.148Z - server running on port 4000
+info 2020-11-22T11:14:43.850Z - starting server
+info 2020-11-22T11:14:43.890Z - server running on port 4000
+info 2020-11-22T11:15:19.353Z - starting server
+info 2020-11-22T11:15:19.392Z - server running on port 4000
+info 2020-11-22T11:17:14.963Z - starting server
+info 2020-11-22T11:17:15.008Z - server running on port 4000
+info 2020-11-22T11:35:01.420Z - starting server
+info 2020-11-22T11:35:01.459Z - server running on port 4000
+info 2020-11-22T11:37:31.847Z - starting server
+info 2020-11-22T11:37:31.885Z - server running on port 4000
+info 2020-11-22T12:38:36.325Z - starting server
+info 2020-11-22T12:38:36.382Z - server running on port 4000
+info 2020-11-22T12:42:49.837Z - starting server
+info 2020-11-22T12:42:49.876Z - server running on port 4000
+info 2020-11-22T12:44:38.332Z - starting server
+info 2020-11-22T12:44:38.376Z - server running on port 4000
+info 2020-11-22T12:44:48.422Z - starting server
+info 2020-11-22T12:44:48.464Z - server running on port 4000
+info 2020-11-22T12:44:49.790Z - starting server
+info 2020-11-22T12:44:49.852Z - server running on port 4000
+info 2020-11-22T12:45:46.271Z - starting server
+info 2020-11-22T12:45:46.311Z - server running on port 4000
+info 2020-11-22T12:46:08.260Z - starting server
+info 2020-11-22T12:46:08.299Z - server running on port 4000
+info 2020-11-22T12:48:07.449Z - starting server
+info 2020-11-22T12:48:07.486Z - server running on port 4000
+info 2020-11-22T12:48:23.133Z - stopping server
+info 2020-11-22T12:48:25.135Z - starting server
+info 2020-11-22T12:48:25.173Z - server running on port 4000
+info 2020-11-22T12:54:23.413Z - starting server
+info 2020-11-22T12:54:23.454Z - server running on port 4000
+info 2020-11-22T12:54:56.217Z - starting server
+info 2020-11-22T12:54:56.259Z - server running on port 4000
+info 2020-11-22T12:55:04.593Z - stopping server
+info 2020-11-22T12:55:06.970Z - starting server
+info 2020-11-22T12:55:07.007Z - server running on port 4000
+info 2020-11-22T12:56:10.662Z - starting server
+info 2020-11-22T12:56:10.702Z - server running on port 4000
+info 2020-11-22T12:59:43.343Z - starting server
+info 2020-11-22T12:59:43.381Z - server running on port 4000
+info 2020-11-22T12:59:47.602Z - starting server
+info 2020-11-22T12:59:47.639Z - server running on port 4000
+info 2020-11-22T13:00:35.170Z - starting server
+info 2020-11-22T13:00:35.210Z - server running on port 4000
+info 2020-11-22T13:01:03.233Z - stopping server
+info 2020-11-22T13:01:05.163Z - starting server
+info 2020-11-22T13:01:05.202Z - server running on port 4000
+info 2020-11-22T13:02:09.437Z - starting server
+info 2020-11-22T13:02:09.486Z - server running on port 4000
+info 2020-11-22T13:04:23.239Z - starting server
+info 2020-11-22T13:04:23.287Z - server running on port 4000
+info 2020-11-22T13:39:59.496Z - starting server
+error 2020-11-22T13:40:29.512Z - MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+info 2020-11-22T13:40:29.513Z - stopping server
+info 2020-11-22T15:29:36.710Z - starting server
+error 2020-11-22T15:30:06.723Z - MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+info 2020-11-22T15:30:06.725Z - stopping server
+info 2020-11-22T15:30:47.289Z - starting server
+error 2020-11-22T15:31:17.303Z - MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+info 2020-11-22T15:31:17.305Z - stopping server
+info 2020-11-22T16:29:10.475Z - starting server
+error 2020-11-22T16:29:40.490Z - MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+info 2020-11-22T16:29:40.491Z - stopping server
