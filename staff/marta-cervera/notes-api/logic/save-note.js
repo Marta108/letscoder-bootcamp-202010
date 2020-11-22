@@ -1,57 +1,52 @@
-const { validateId, validateText, validateTags, validateVisibility, validateCallback } = require('./helpers/validations')
-const { context } = require('./context')
+const {validateId, validateText, validateTags, validateVisibility ,validateCallback} = require('./helpers/validations')
+const context = require('./context')
 const { env: { DB_NAME } } = process
 
-
-
-module.exports = function (noteId, text, tags, ownerId, visibility, callback) {
-    
-    if (typeof noteId !== 'undefined') validateId(noteId)
+module.exports = function (ownerId, noteId, text, tags, visibility, callback) {
+    validateId(ownerId) 
+  if (typeof noteId !== 'undefined') validateId(noteId) 
     validateText(text)
     validateTags(tags)
-    validateId(ownerId)
     validateVisibility(visibility)
     validateCallback(callback)
-    
-   
+
     const { connection } = this
 
     const db = connection.db(DB_NAME)
 
     const notes = db.collection('notes')
+
     
-        notes.findOne({ noteId }, (error, notes) => {
+        notes.findOne({ noteId }, (error, note) => {
+            console.log(noteId, '1')
             if (error) {
-                done()
 
-                return callback(error);
-
-            } 
-            if (notes) {
-                console.log(note, '2')
-
-                return callback(new Error(`noteId ${noteId} registered`))
-                
+                return callback(error)
             }
 
-            note = { ownerId, noteId, text, tag, visibility }
+            if (note) {
+                console.log(note, '2')
+               
+                return callback(new Error(`noteId ${noteId} already registered`))
+            }
 
-                
-                notes.insertOne(users, (error, result) => {
-                    if (error) {
-                        done()
+            note = { ownerId, noteId, text, tags, visibility }
 
-                        return callback(error)
-                    }
-                    done()
-                }) 
+            notes.insertOne(note, (error, note) => {
+                console.log(error + 'error')
+                if (error) {
+                  
 
+                    return callback(error)
+                }
+
+              
+
+               return callback (null, note)
             })
-            
+        })
     
-            
-        }
-    
+}.bind(context)
     
 
 

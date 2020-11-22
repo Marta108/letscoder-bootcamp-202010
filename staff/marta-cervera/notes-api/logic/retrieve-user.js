@@ -5,9 +5,10 @@ const { env: { DB_NAME } } = process
 
 
 module.exports = function (id, callback) {
-
+console.log()
+    
     validateCallback(callback)
-    validateId(id)
+     validateId(id) 
 
     let o_id = new ObjectId(id)
 

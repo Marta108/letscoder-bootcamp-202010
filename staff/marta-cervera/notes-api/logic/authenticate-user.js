@@ -6,6 +6,7 @@ const {env : {DB_NAME} } = process
 
 
 module.exports = function (email, password, callback)  {
+    
     validateEmail(email)
     validatePassword(password)
     validateCallback(callback)

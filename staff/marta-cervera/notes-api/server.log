@@ -273,3 +273,76 @@ info 2020-11-22T15:31:17.305Z - stopping server
 info 2020-11-22T16:29:10.475Z - starting server
 error 2020-11-22T16:29:40.490Z - MongoServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
 info 2020-11-22T16:29:40.491Z - stopping server
+info 2020-11-22T17:34:02.346Z - starting server
+info 2020-11-22T17:34:02.384Z - server running on port 4000
+info 2020-11-22T17:43:11.003Z - starting server
+info 2020-11-22T17:43:11.038Z - server running on port 4000
+info 2020-11-22T17:47:18.185Z - starting server
+info 2020-11-22T17:47:18.220Z - server running on port 4000
+info 2020-11-22T18:01:51.800Z - starting server
+info 2020-11-22T18:01:51.836Z - server running on port 4000
+info 2020-11-22T18:02:08.198Z - starting server
+info 2020-11-22T18:02:08.241Z - server running on port 4000
+info 2020-11-22T18:05:21.097Z - starting server
+info 2020-11-22T18:05:21.142Z - server running on port 4000
+info 2020-11-22T18:05:38.682Z - starting server
+info 2020-11-22T18:05:38.722Z - server running on port 4000
+info 2020-11-22T18:28:24.435Z - starting server
+info 2020-11-22T18:28:24.478Z - server running on port 4000
+info 2020-11-22T18:28:38.684Z - starting server
+info 2020-11-22T18:28:38.727Z - server running on port 4000
+info 2020-11-22T18:29:36.039Z - starting server
+info 2020-11-22T18:29:36.082Z - server running on port 4000
+info 2020-11-22T18:40:17.326Z - starting server
+info 2020-11-22T18:40:17.366Z - server running on port 4000
+info 2020-11-22T18:40:22.145Z - stopping server
+info 2020-11-22T18:40:34.794Z - starting server
+info 2020-11-22T18:40:34.856Z - server running on port 4000
+info 2020-11-22T18:50:39.865Z - starting server
+info 2020-11-22T18:50:39.913Z - server running on port 4000
+info 2020-11-22T18:50:58.550Z - starting server
+info 2020-11-22T18:50:58.602Z - server running on port 4000
+info 2020-11-22T18:51:56.282Z - starting server
+info 2020-11-22T18:54:27.240Z - starting server
+info 2020-11-22T18:54:48.411Z - starting server
+info 2020-11-22T18:56:58.282Z - starting server
+error 2020-11-22T18:57:31.891Z - ReferenceError: validateId is not defined
+error 2020-11-22T18:59:55.729Z - ReferenceError: validateId is not defined
+error 2020-11-22T19:00:18.063Z - ReferenceError: validateId is not defined
+error 2020-11-22T19:00:52.733Z - ReferenceError: validateId is not defined
+error 2020-11-22T19:01:03.916Z - ReferenceError: validateId is not defined
+info 2020-11-22T19:20:12.953Z - starting server
+info 2020-11-22T19:25:25.426Z - starting server
+error 2020-11-22T19:25:42.458Z - ReferenceError: validateId is not defined
+error 2020-11-22T19:26:04.270Z - TypeError: undefined is not a id
+info 2020-11-22T19:39:28.043Z - starting server
+error 2020-11-22T19:39:53.590Z - ReferenceError: validateId is not defined
+error 2020-11-22T19:40:30.188Z - TypeError: [object Object] is not a id
+info 2020-11-22T19:44:28.656Z - stopping server
+info 2020-11-22T19:44:36.273Z - starting server
+error 2020-11-22T19:56:10.104Z - TypeError: [object Object] is not a id
+info 2020-11-22T19:59:07.288Z - stopping server
+info 2020-11-22T19:59:12.302Z - starting server
+error 2020-11-22T20:01:04.420Z - ReferenceError: validateId is not defined
+error 2020-11-22T20:01:25.139Z - TypeError: [object Object] is not a id
+info 2020-11-22T20:11:14.414Z - stopping server
+info 2020-11-22T20:11:26.144Z - starting server
+error 2020-11-22T20:11:58.446Z - ReferenceError: validateId is not defined
+error 2020-11-22T20:12:13.558Z - TypeError: [object Object] is not a id
+error 2020-11-22T20:16:35.126Z - TypeError: [object Object] is not a id
+info 2020-11-22T20:19:34.211Z - starting server
+info 2020-11-22T20:19:48.163Z - starting server
+error 2020-11-22T20:21:39.134Z - ReferenceError: validateId is not defined
+error 2020-11-22T20:22:28.824Z - ReferenceError: noteId is not defined
+info 2020-11-22T20:38:40.614Z - stopping server
+info 2020-11-22T20:38:43.293Z - starting server
+error 2020-11-22T20:39:46.896Z - ReferenceError: validateId is not defined
+error 2020-11-22T20:40:16.945Z - ReferenceError: noteId is not defined
+error 2020-11-22T20:41:43.722Z - ReferenceError: validateId is not defined
+error 2020-11-22T20:42:16.383Z - ReferenceError: validateId is not defined
+error 2020-11-22T20:42:36.434Z - ReferenceError: noteId is not defined
+info 2020-11-22T20:44:42.710Z - starting server
+error 2020-11-22T20:44:56.645Z - ReferenceError: validateId is not defined
+error 2020-11-22T20:45:04.551Z - ReferenceError: validateId is not defined
+info 2020-11-22T20:47:21.225Z - starting server
+error 2020-11-22T20:48:13.227Z - ReferenceError: validateId is not defined

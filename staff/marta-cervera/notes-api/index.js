@@ -33,7 +33,7 @@ client.connect((error, connection) =>{
     
     app.get('/*', (req, res) => res.status(404).send('Not found :('))
     
-    app.listen(port, () => logger.log(`server running on port ${port}`))
+    app.listen(port, () => console.log(`server running on port ${port}`))
 })
 
 const shutDown = () => logger.log(`stopping server`, 'info', error =>{
