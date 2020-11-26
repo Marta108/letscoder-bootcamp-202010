@@ -1,31 +1,24 @@
 require('dotenv').config()
 
 const express = require('express')
+const mongoose = require('mongoose')
 const logger = require('./utils/logger')
-const { MongoClient } = require('mongodb')
 const { cors } = require('./middlewares')
-const { context } = require('./logic')
+
 
 
 const { env: { PORT, MONGODB_URL }, argv: [, , port = PORT || 8080] } = process
 
-const client = new MongoClient(MONGODB_URL, { useUnifiedTopology: true })
+
 
 logger.log('starting server', 'info')
 
-client.connect((error, connection) =>{
-    if (error)
-    return logger.log(error, 'error', error =>{
-        if (error) console.error(error)
+mongoose.connect(MONGODB_URL, {useUnifiedTopology: true, useNewUrlParser: true}) 
 
-        shutDown()
-    })
+  .then(() => {
+    const app = express ()  
     
-    context.connection = connection
-
-    const app = express()
-
-    app.use(cors)    
+     app.use(cors)    
         
     const { api } = require('./routes')
 
@@ -36,17 +29,26 @@ client.connect((error, connection) =>{
     app.listen(port, () => console.log(`server running on port ${port}`))
 })
 
+.catch(error => 
+    logger.log(error,'error', error => {
+        if(error) console.error(error)
+
+        shutDown
+    })
+    )
+
 const shutDown = () => logger.log(`stopping server`, 'info', error =>{
     if (error) console.error(error)
 
-    if(client)
-        return client.close(error => {
-            if (error) console.error(error)
+    if(mongoose.connection.readyState ===1)
 
-            process.exit(0)
+        return mongoose.disconnect()
+            .catch(console.error)
+            .then(() => process.exit(0))
+            if (error) console.error(error)         
 
-        })
+        
         process.exit(0)
 })
 
-process.on('SIGINT', () => logger.log(`stopping server`, 'info', () => process.exit(0)))
+process.on('SIGINT', shutDown)

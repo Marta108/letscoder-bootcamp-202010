@@ -346,3 +346,262 @@ error 2020-11-22T20:44:56.645Z - ReferenceError: validateId is not defined
 error 2020-11-22T20:45:04.551Z - ReferenceError: validateId is not defined
 info 2020-11-22T20:47:21.225Z - starting server
 error 2020-11-22T20:48:13.227Z - ReferenceError: validateId is not defined
+error 2020-11-23T10:17:02.500Z - ReferenceError: validateId is not defined
+info 2020-11-23T10:58:47.475Z - starting server
+info 2020-11-23T11:00:44.664Z - starting server
+info 2020-11-23T11:04:00.211Z - starting server
+info 2020-11-23T11:05:14.819Z - starting server
+info 2020-11-23T11:05:38.424Z - starting server
+info 2020-11-23T11:27:18.201Z - starting server
+info 2020-11-23T11:27:42.820Z - starting server
+info 2020-11-23T11:28:22.997Z - starting server
+info 2020-11-23T11:28:39.034Z - starting server
+info 2020-11-23T11:54:29.229Z - stopping server
+info 2020-11-23T11:54:33.522Z - starting server
+error 2020-11-23T11:55:55.054Z - ReferenceError: validateId is not defined
+error 2020-11-23T11:56:09.864Z - ReferenceError: validateId is not defined
+info 2020-11-23T12:03:17.004Z - stopping server
+info 2020-11-25T12:17:23.034Z - starting server
+error 2020-11-25T12:19:02.170Z - Error: wrong credentials
+info 2020-11-25T12:25:00.465Z - starting server
+info 2020-11-25T12:42:34.227Z - starting server
+info 2020-11-25T12:42:46.217Z - stopping server
+info 2020-11-25T12:42:48.218Z - starting server
+error 2020-11-25T12:47:05.508Z - Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters
+info 2020-11-25T12:56:19.278Z - stopping server
+info 2020-11-25T12:57:26.543Z - starting server
+info 2020-11-25T12:59:19.045Z - starting server
+info 2020-11-25T12:59:28.162Z - starting server
+info 2020-11-25T13:05:13.988Z - starting server
+error 2020-11-25T13:06:00.950Z - TypeError: undefined is not a callback
+error 2020-11-25T13:10:23.007Z - TypeError: undefined is not a callback
+error 2020-11-25T14:13:54.928Z - TypeError: undefined is not a callback
+error 2020-11-25T14:18:22.061Z - TypeError: undefined is not a callback
+info 2020-11-25T14:26:18.709Z - starting server
+info 2020-11-25T14:26:22.595Z - starting server
+info 2020-11-25T14:26:31.654Z - starting server
+info 2020-11-25T14:36:28.090Z - starting server
+info 2020-11-25T15:22:54.749Z - starting server
+info 2020-11-25T15:51:11.035Z - starting server
+info 2020-11-25T15:51:37.503Z - starting server
+info 2020-11-25T15:53:08.498Z - starting server
+info 2020-11-25T15:53:12.928Z - stopping server
+info 2020-11-25T15:53:15.551Z - starting server
+info 2020-11-25T17:15:12.515Z - starting server
+info 2020-11-25T17:15:53.461Z - starting server
+info 2020-11-25T17:20:18.223Z - starting server
+info 2020-11-25T17:44:42.516Z - starting server
+info 2020-11-25T17:52:26.688Z - stopping server
+info 2020-11-25T18:19:47.605Z - starting server
+info 2020-11-25T18:21:08.183Z - stopping server
+info 2020-11-25T18:23:08.657Z - starting server
+info 2020-11-26T05:51:43.066Z - starting server
+info 2020-11-26T05:52:47.525Z - stopping server
+info 2020-11-26T06:58:20.157Z - starting server
+error 2020-11-26T06:58:37.325Z - ReferenceError: token is not defined
+error 2020-11-26T07:02:08.238Z - ReferenceError: token is not defined
+error 2020-11-26T07:02:45.755Z - ReferenceError: token is not defined
+info 2020-11-26T07:04:20.302Z - starting server
+info 2020-11-26T07:05:15.538Z - starting server
+info 2020-11-26T07:06:01.390Z - starting server
+info 2020-11-26T07:07:45.991Z - starting server
+info 2020-11-26T07:08:07.504Z - starting server
+info 2020-11-26T07:08:32.040Z - starting server
+info 2020-11-26T07:10:06.456Z - starting server
+error 2020-11-26T07:10:17.541Z - ReferenceError: cp is not defined
+error 2020-11-26T07:10:33.780Z - ReferenceError: cp is not defined
+info 2020-11-26T07:11:17.504Z - starting server
+error 2020-11-26T07:11:30.436Z - ReferenceError: token is not defined
+info 2020-11-26T07:12:15.007Z - starting server
+info 2020-11-26T07:12:27.558Z - starting server
+info 2020-11-26T07:12:48.835Z - starting server
+error 2020-11-26T07:12:59.695Z - ReferenceError: token is not defined
+info 2020-11-26T07:14:39.390Z - starting server
+info 2020-11-26T07:15:14.384Z - starting server
+info 2020-11-26T07:15:18.581Z - starting server
+error 2020-11-26T07:15:31.865Z - ReferenceError: token is not defined
+error 2020-11-26T07:16:37.591Z - ReferenceError: token is not defined
+error 2020-11-26T07:18:24.901Z - ReferenceError: token is not defined
+error 2020-11-26T07:20:03.427Z - ReferenceError: token is not defined
+error 2020-11-26T07:21:33.492Z - ReferenceError: token is not defined
+info 2020-11-26T07:22:05.627Z - starting server
+info 2020-11-26T07:22:17.568Z - starting server
+info 2020-11-26T07:22:37.973Z - starting server
+info 2020-11-26T07:22:52.111Z - starting server
+info 2020-11-26T07:24:12.997Z - starting server
+error 2020-11-26T07:24:25.180Z - ReferenceError: Cannot access 'token' before initialization
+error 2020-11-26T07:24:30.930Z - ReferenceError: Cannot access 'token' before initialization
+info 2020-11-26T07:25:15.160Z - starting server
+info 2020-11-26T07:25:23.151Z - starting server
+info 2020-11-26T07:26:57.034Z - starting server
+info 2020-11-26T07:28:08.279Z - starting server
+info 2020-11-26T07:28:51.859Z - starting server
+info 2020-11-26T07:29:38.226Z - stopping server
+info 2020-11-26T07:29:50.142Z - starting server
+error 2020-11-26T07:30:06.058Z - ReferenceError: token is not defined
+error 2020-11-26T07:31:06.709Z - ReferenceError: token is not defined
+error 2020-11-26T07:32:51.161Z - ReferenceError: token is not defined
+error 2020-11-26T07:34:52.351Z - ReferenceError: token is not defined
+error 2020-11-26T07:35:16.319Z - ReferenceError: token is not defined
+error 2020-11-26T07:36:54.119Z - ReferenceError: token is not defined
+error 2020-11-26T07:39:20.262Z - ReferenceError: token is not defined
+error 2020-11-26T07:41:56.966Z - ReferenceError: token is not defined
+error 2020-11-26T07:42:46.728Z - ReferenceError: token is not defined
+error 2020-11-26T07:43:21.784Z - ReferenceError: token is not defined
+error 2020-11-26T07:48:45.847Z - ReferenceError: token is not defined
+error 2020-11-26T07:50:16.884Z - ReferenceError: token is not defined
+error 2020-11-26T08:11:52.770Z - ReferenceError: token is not defined
+error 2020-11-26T08:33:05.329Z - ReferenceError: token is not defined
+error 2020-11-26T08:37:44.146Z - ReferenceError: token is not defined
+info 2020-11-26T08:40:26.231Z - stopping server
+info 2020-11-26T08:41:07.343Z - starting server
+error 2020-11-26T08:51:41.543Z - MongoServerSelectionError: connection timed out
+info 2020-11-26T08:53:31.240Z - starting server
+error 2020-11-26T08:54:16.819Z - Error: id length is not 31
+info 2020-11-26T08:56:37.469Z - stopping server
+info 2020-11-26T08:56:42.431Z - starting server
+info 2020-11-26T09:01:10.655Z - stopping server
+info 2020-11-26T09:02:20.600Z - starting server
+error 2020-11-26T09:15:51.353Z - MongoServerSelectionError: connection <monitor> to 127.0.0.1:27017 timed out
+info 2020-11-26T09:21:50.986Z - starting server
+info 2020-11-26T09:22:21.952Z - stopping server
+info 2020-11-26T09:22:43.975Z - starting server
+info 2020-11-26T09:44:14.209Z - starting server
+error 2020-11-26T09:44:46.911Z - Error: id length is not 31
+error 2020-11-26T09:45:23.957Z - ReferenceError: token is not defined
+info 2020-11-26T10:33:45.854Z - stopping server
+info 2020-11-26T14:47:14.887Z - starting server
+error 2020-11-26T14:53:19.600Z - AuthError: wrong credentials
+    at C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\logic\authenticate-user.js:24:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+error 2020-11-26T15:40:32.958Z - ReferenceError: LenghtError is not defined
+    at validateId (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\logic\helpers\validations.js:34:31)
+    at Object.<anonymous> (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\logic\retrieve-notes.js:9:5)
+    at module.exports (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\routes\api\handlers\handle-retrieve-notes.js:12:9)
+    at C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\routes\api\helpers\with-error-handling.js:6:9
+    at Layer.handle [as handle_request] (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\index.js:335:12)
+error 2020-11-26T15:41:03.852Z - ReferenceError: token is not defined
+    at module.exports (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\routes\api\handlers\handle-save-note.js:13:44)
+    at C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\routes\api\helpers\with-error-handling.js:6:9
+    at Layer.handle [as handle_request] (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\route.js:137:13)
+    at IncomingMessage.<anonymous> (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\middlewares\json-body-parser.js:18:9)
+    at IncomingMessage.emit (events.js:314:20)
+    at endReadableNT (_stream_readable.js:1223:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+error 2020-11-26T15:42:10.816Z - ReferenceError: LenghtError is not defined
+    at validateId (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\logic\helpers\validations.js:34:31)
+    at Object.<anonymous> (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\logic\retrieve-notes.js:9:5)
+    at module.exports (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\routes\api\handlers\handle-retrieve-notes.js:12:9)
+    at C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\routes\api\helpers\with-error-handling.js:6:9
+    at Layer.handle [as handle_request] (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\index.js:335:12)
+error 2020-11-26T15:59:39.464Z - ReferenceError: LenghtError is not defined
+    at validateId (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\logic\helpers\validations.js:34:31)
+    at Object.<anonymous> (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\logic\retrieve-notes.js:9:5)
+    at module.exports (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\routes\api\handlers\handle-retrieve-notes.js:12:9)
+    at C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\routes\api\helpers\with-error-handling.js:6:9
+    at Layer.handle [as handle_request] (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\index.js:335:12)
+error 2020-11-26T16:02:14.512Z - ReferenceError: token is not defined
+    at module.exports (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\routes\api\handlers\handle-save-note.js:13:44)
+    at C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\routes\api\helpers\with-error-handling.js:6:9
+    at Layer.handle [as handle_request] (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\node_modules\express\lib\router\route.js:137:13)
+    at IncomingMessage.<anonymous> (C:\Users\marta\bootcamp\collab\letscoder-bootcamp-202010\staff\marta-cervera\notes-api\middlewares\json-body-parser.js:18:9)
+    at IncomingMessage.emit (events.js:314:20)
+    at endReadableNT (_stream_readable.js:1223:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+info 2020-11-26T16:34:36.230Z - stopping server
+info 2020-11-26T16:46:11.636Z - starting server
+info 2020-11-26T16:52:54.559Z - starting server
+error 2020-11-26T16:59:14.017Z - LengthError: id length is not 31
+error 2020-11-26T17:04:39.637Z - ReferenceError: token is not defined
+error 2020-11-26T17:07:39.453Z - LengthError: id length is not 31
+error 2020-11-26T17:09:30.941Z - ReferenceError: token is not defined
+error 2020-11-26T17:14:34.089Z - LengthError: id length is not 31
+error 2020-11-26T17:15:02.721Z - ReferenceError: token is not defined
+info 2020-11-26T17:24:07.341Z - starting server
+info 2020-11-26T17:24:14.865Z - starting server
+info 2020-11-26T17:25:34.768Z - starting server
+info 2020-11-26T17:26:31.828Z - starting server
+info 2020-11-26T17:27:05.385Z - starting server
+error 2020-11-26T17:27:16.795Z - LengthError: id length is not 31
+info 2020-11-26T17:27:24.953Z - stopping server
+info 2020-11-26T17:27:30.081Z - starting server
+error 2020-11-26T17:27:59.983Z - LengthError: id length is not 31
+error 2020-11-26T17:28:10.318Z - ReferenceError: token is not defined
+info 2020-11-26T17:29:27.939Z - stopping server
+info 2020-11-26T17:29:33.737Z - starting server
+error 2020-11-26T17:29:57.425Z - LengthError: id length is not 31
+error 2020-11-26T17:30:08.719Z - ReferenceError: token is not defined
+error 2020-11-26T17:44:58.692Z - LengthError: id length is not 31
+error 2020-11-26T17:46:29.045Z - LengthError: id length is not 31
+error 2020-11-26T17:46:35.636Z - ReferenceError: token is not defined
+error 2020-11-26T17:50:11.653Z - LengthError: id length is not 31
+error 2020-11-26T17:50:26.834Z - ReferenceError: token is not defined
+info 2020-11-26T18:10:50.420Z - stopping server
+info 2020-11-26T18:26:22.217Z - starting server
+error 2020-11-26T18:26:51.813Z - LengthError: id length is not 24
+error 2020-11-26T18:26:59.624Z - LengthError: id length is not 24
+error 2020-11-26T18:27:04.865Z - LengthError: id length is not 24
+error 2020-11-26T18:28:10.698Z - LengthError: id length is not 24
+error 2020-11-26T18:28:23.787Z - LengthError: id length is not 24
+error 2020-11-26T18:28:35.954Z - LengthError: id length is not 24
+info 2020-11-26T18:29:14.762Z - stopping server
+info 2020-11-26T18:29:53.797Z - starting server
+error 2020-11-26T18:30:24.999Z - LengthError: id length is not 31
+error 2020-11-26T18:34:12.222Z - LengthError: id length is not 31
+error 2020-11-26T18:35:53.670Z - LengthError: id length is not 31
+error 2020-11-26T18:37:37.602Z - LengthError: id length is not 31
+error 2020-11-26T18:46:22.720Z - LengthError: id length is not 31
+error 2020-11-26T18:47:11.146Z - LengthError: id length is not 31
+error 2020-11-26T18:47:47.699Z - LengthError: id length is not 31
+error 2020-11-26T18:50:34.783Z - LengthError: id length is not 31
+error 2020-11-26T18:52:12.707Z - LengthError: id length is not 31
+info 2020-11-26T18:52:38.502Z - stopping server
+info 2020-11-26T18:52:40.863Z - starting server
+error 2020-11-26T18:53:03.978Z - LengthError: id length is not 24
+error 2020-11-26T18:54:01.220Z - LengthError: id length is not 24
+info 2020-11-26T19:05:58.104Z - stopping server
+info 2020-11-26T20:52:02.415Z - starting server
+error 2020-11-26T20:52:51.624Z - ValidationError: password: Path `password` (`123`) is shorter than the minimum allowed length (8).
+error 2020-11-26T20:53:07.067Z - ValidationError: password: Path `password` (`123`) is shorter than the minimum allowed length (8).
+error 2020-11-26T20:53:50.696Z - ValidationError: password: Path `password` (`123`) is shorter than the minimum allowed length (8).
+info 2020-11-26T20:55:12.401Z - stopping server
+info 2020-11-26T20:58:30.870Z - starting server
+error 2020-11-26T21:03:05.566Z - TypeError: Cannot read property 'db' of undefined
+info 2020-11-26T21:21:44.611Z - stopping server
+info 2020-11-26T21:21:47.369Z - starting server
+error 2020-11-26T21:22:27.633Z - TypeError: [object Object] is not a id
+error 2020-11-26T21:26:17.602Z - TypeError: [object Object] is not a id
+info 2020-11-26T21:37:04.175Z - stopping server
+info 2020-11-26T21:37:09.485Z - starting server
+error 2020-11-26T21:37:38.143Z - TypeError: User.save is not a function
+error 2020-11-26T21:38:12.857Z - TypeError: User.save is not a function
+error 2020-11-26T21:42:51.756Z - AuthError: wrong credentials
+error 2020-11-26T21:43:01.151Z - TypeError: User.save is not a function
+info 2020-11-26T21:43:13.664Z - stopping server
+info 2020-11-26T21:43:17.326Z - starting server
+error 2020-11-26T21:43:52.550Z - TypeError: User.get is not a function
+info 2020-11-26T21:56:46.734Z - stopping server
+info 2020-11-26T21:56:49.891Z - starting server
+error 2020-11-26T21:57:28.013Z - ConflictError: user with e-mailrodolfo@mail.com already registerd
+error 2020-11-26T21:57:41.737Z - TypeError: true is not a id
+info 2020-11-26T22:01:47.660Z - stopping server
+info 2020-11-26T22:01:53.467Z - starting server
+error 2020-11-26T22:02:50.765Z - TypeError: [object Object] is not a id
+error 2020-11-26T22:03:26.272Z - TypeError: [object Object] is not a id

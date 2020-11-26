@@ -1,39 +1,62 @@
-const fs = require('fs')
-const path = require('path')
+const { validateId } = require('./helpers/validations')
+const context = require('./context')
+const { ObjectId } = require('mongodb')
+const { NotFoundError } = require('../errors')
 
-module.exports = (userId, callback) => {
-    validateId(userId)
-    validateCallback(callback)
+const { env: { DB_NAME } } = process
 
-    const notesPath = path.join(__dirname, '../data/notes')
+module.exports = function (ownerId) {
+    validateId(ownerId)    
+
+    const { connection } = this
     
-    const notes = [];
+    const db = connection.db(DB_NAME)
 
-    fs.readdir(notesPath, (error, files) => {
-        if (error) return callback(error);
+    const users = db.collection('users')
+
+    const _id = ObjectId(ownerId)
+
+    return users
+        .findOne({ _id })
+        .then(user => {
+            debugger
+
+            if (!user) throw new NotFoundError(`user with id ${ownerId} not found`)
+
+            const notes = db.collection('notes')
+
+            const owner = _id
 
 
-        (function readNote(files, index = 0) {
-         
-            if (index < files.length) {
-                const file = files[index]
-               
-                fs.readFile(path.join(notesPath, file), 'utf8', (error, json) => {
-                   
-                    if (error) return callback(error)
-
-                        const note = JSON.parse(json)
-
-                        if (note.owner === userId)
-                        notes.push(note)
-
-                        readNote(files, ++index)
-                        
-                })
-                 
-             } else callback(null, notes)
+            return notes
             
-        })(files)
-       
-})
-}
+            .find({ owner }, { sort: { date: -1 } }).toArray()
+
+            .then(notes => {
+
+                    notes = notes.map(({ _id, text, tags, visibility, date }) => ({ id: _id.toString(), text, tags, visibility, date }))
+
+                    return notes
+                })
+        })
+
+}.bind(context)
+
+
+// USING cursor.each()
+
+// const notes = []
+
+// cursor.each((error, note) => {
+//     if (error) return callback(error)
+
+//     if (note) {
+//         const { _id, text, tags, visibility, date } = note
+
+//         note = { id: _id.toString(), text, tags, visibility, date }
+
+//         notes.push(note)
+//     } else callback(null, notes)
+// })
+
+// USING cursor.toArray()

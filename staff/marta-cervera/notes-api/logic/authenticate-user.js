@@ -1,26 +1,23 @@
-
-const { validateEmail, validatePassword, validateCallback } = require('./helpers/validations')
-const context = require('./context')
-const ObjectId = require('mongodb').ObjectId; 
-const {env : {DB_NAME} } = process
+const { validateEmail, validatePassword } = require('./helpers/validations')
+const { User } = require('../models')
+const { AuthError } = require('../errors')
 
 
-module.exports = function (email, password, callback)  {
-    
+module.exports = function (email, password) {    
     validateEmail(email)
     validatePassword(password)
-    validateCallback(callback)
+    
 
-    const { connection } = this
+    return User
+    
+    .findOne({ email })
+        .then( user => {               
+        if (!user) throw new AuthError('wrong credentials')       
+            
+        const { _id: id } = user
 
-    const db = connection.db(DB_NAME)
+        return User({id})
 
-    const users = db.collection('users')
-
-    users.findOne( {email, password}, (error, user) =>{
-        if (error) {return callback(error)
-        } else {
-            callback(null, user._id)
-        }
+        
     })
-}.bind(context)
+}

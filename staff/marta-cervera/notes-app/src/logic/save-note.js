@@ -17,13 +17,13 @@ import { call } from '../utils'
  * @param {function} callback 
  */
 
-export default function saveNote(token, noteId, text, tags, visibility, callback) {
-   /*  validateId(token)
+export default function (token, noteId, text, tags, visibility, callback) {
+    /* validateId(token)
     if (typeof noteId !== 'undefined') validateId(noteId)
     validateText(text)
     validateTags(tags)
     validateVisibility(visibility)
-    validateCallback(callback) */
+    validateCallback(callback)  */
 
     call('POST', 'http://localhost:4000/api/notes', { 
         'Content-type': 'application/json',
@@ -34,7 +34,7 @@ export default function saveNote(token, noteId, text, tags, visibility, callback
            
             if (status === 0)
                 return callback(new Error('server error'))
-            else if (status !== 200) {
+            else if (status !== 201) {
                 const { error } = JSON.parse(response)
 
                 return callback(new Error(error))

@@ -3,9 +3,6 @@ import { useState, useEffect } from 'react'
 import { retrieveUser, saveNote, retrieveNotes } from '../logic'
 import SaveNote from './SaveNote'
 import ListNotes from './ListNotes'
-import { createId } from '../utils/ids'
-
-
 
 export default function () {
     const [name, setName] = useState()
@@ -38,9 +35,10 @@ export default function () {
 
     const handleSaveNote = (text, visibility, tag) =>{
         const { token } = sessionStorage
-        const noteId = createId()
+        
         try {
-            saveNote(token, noteId, text, tag, visibility, error =>{
+            saveNote(token, undefined, text, tag, visibility, error =>{
+                
                 if (error) return alert(error.message)
                 try{
                     retrieveNotes(token, (error, notes) =>{
@@ -56,6 +54,8 @@ export default function () {
             alert(error.message)
         }
     }
+
+    /* const handleRetrieveNote = */
 
     return <section className="home">
         <h1>Hello, {name}!</h1>

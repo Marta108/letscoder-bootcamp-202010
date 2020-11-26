@@ -1,29 +1,35 @@
-const { validateCallback, validateId } = require('./helpers/validations')
-const context = require('./context')
+const { validateId } = require('./helpers/validations')
+const context = require('./context');
 const ObjectId = require('mongodb').ObjectId;
+const { NotFoundError } = require('../errors')
+
 const { env: { DB_NAME } } = process
 
 
-module.exports = function (id, callback) {
-console.log()
+module.exports = function (userId) {   
     
-    validateCallback(callback)
-     validateId(id) 
+     validateId(userId) 
+     
+     const { connection } = this
+     
+     const db = connection.db(DB_NAME)
 
-    let o_id = new ObjectId(id)
+     const users = db.collection('users')
+     
+     const _id = new ObjectId(userId)
+     
+    return users.findOne({ _id })
+        .then (user => {      
+            
+            if (!user) throw new NotFoundError(`user with id ${userId} not found`)
 
-    const { connection } = this
+        const { _id} = user
 
-    const db = connection.db(DB_NAME)
+        user.id = _id.toString()
 
-    const users = db.collection('users')
+       delete user._id
+       delete user.password
 
-    users.findOne({ "_id": o_id }, (error, user) => {
-        if (error) {
-            return callback(error)
-
-        } else {
-            return callback(null, user)
-        }
+        return user         
     })
 }.bind(context)

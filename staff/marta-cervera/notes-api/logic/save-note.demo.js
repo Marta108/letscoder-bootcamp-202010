@@ -1,4 +1,28 @@
+require('dotenv').config()
+
+const { MongoClient } = require('mongodb')
+const context = require('./context')
 const saveNote = require('./save-note')
 
-// saveNote(undefined, 'Hola, Mundo!', ['hola', 'mundo'], '1605100834183530418874468846100', 'public', console.log)
-saveNote('1605852560777200738753311717300', 'Hola, Mundo!', ['hola', 'mundo'], '1605100834183530418874468846100', 'private', console.log)
+const { env: { MONGODB_URL }} = process
+
+
+
+const client = new MongoClient(MONGODB_URL, { useUnifiedTopology: true})
+
+client.connect((error, connection) =>{
+    if (error) return console.error(error)
+
+    context.connection = connection
+
+    try {
+        saveNote('5fbab384e7836036a05fa907', undefined, 'Otra notita mas!', ['hello', 'date prisa'], 'private', console.log)
+        .then(() => console.log(' note saved'))
+        .catch(error => console.error('note could not be saved', error))
+        .then(() => client.close())
+        .then(() => console.log('connection closed'))
+    } catch (error) {
+        console.log('validateion error', error)
+    }
+
+})

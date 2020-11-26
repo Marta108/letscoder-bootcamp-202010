@@ -8,6 +8,7 @@
     "inspect": "node inspect .",
     "test": "npx mocha logic/*.spec.js",
     "test-inspect": "npx mocha inspect logic/*.spec.js",
+    "test-coverage": "npx nyc --reporter=html mocha logic/*.spec.js",
     "style": "sass public/style.sass public/style.css"
   },
   "author": "",
@@ -15,8 +16,11 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "mongo": "^0.1.0",
     "mongodb": "^3.6.3",
+    "mongoose": "^5.10.16",
+    "nyc": "^15.1.0",
     "pug": "^3.0.0",
     "xmlhttprequest": "^1.8.0"
   },

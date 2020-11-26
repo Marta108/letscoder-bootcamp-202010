@@ -9,13 +9,14 @@ module.exports = (req, res, handleError) => {
     res.setHeader('Access-Control-Allow-Origin', '*')
 
     try {
-        retrieveNotes(userId, (error, notes) => {
-            if (error) return handleError(401, error)
+        retrieveNotes(userId)
+            .then(notes => res.status(200).json(notes))
+            .catch(handleError)
 
-            res.status(200).json(notes)
-        })
-    } catch (error) {
-        handleError(400, error)
+            
+        
+    }catch (error) {
+        handleError(error)
     }
 }
 //porque el id es el id de la nota

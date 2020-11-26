@@ -1,20 +1,25 @@
 const { retrieveUser } = require('../../../logic')
+const jwt = require('jsonwebtoken')
 
-module.exports = (req, res, handleError) => {
+const { env: { JWT_SECRET } } = process
+
+
+module.exports = (req, res, handleError) => { 
+    debugger   
+        
     const { headers: { authorization } } = req
 
     // Bearer <token>
-    const userId = authorization.replace('Bearer ', '')
+    const token = authorization.replace('Bearer ', '')   
 
-    res.setHeader('Access-Control-Allow-Origin', '*')
+    try {        
+        const { sub: userId } = jwt.verify(token, JWT_SECRET)
 
-    try {
-        retrieveUser(userId, (error, user) => {
-            if (error) return handleError(401, error)
-
-            res.status(200).json(user)
-        })
+        retrieveUser(userId)
+        .then(user  =>  res.status(200).json(user))
+        .catch(handleError)
+        
     } catch (error) {
-        handleError(400, error)
+        handleError(error)
     }
 }
