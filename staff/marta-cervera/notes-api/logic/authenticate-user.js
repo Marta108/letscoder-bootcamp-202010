@@ -10,13 +10,13 @@ module.exports = function (email, password) {
 
     return User
     
-    .findOne({ email })
+    .findOne({ email }).lean()
         .then( user => {               
         if (!user) throw new AuthError('wrong credentials')       
             
-        const { _id: id } = user
+        const { _id } = user
 
-        return User({id})
+        return _id.toString()
 
         
     })

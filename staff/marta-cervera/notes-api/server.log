@@ -605,3 +605,7 @@ info 2020-11-26T22:01:47.660Z - stopping server
 info 2020-11-26T22:01:53.467Z - starting server
 error 2020-11-26T22:02:50.765Z - TypeError: [object Object] is not a id
 error 2020-11-26T22:03:26.272Z - TypeError: [object Object] is not a id
+info 2020-11-27T08:15:53.097Z - stopping server
+info 2020-11-27T13:13:07.641Z - starting server
+error 2020-11-27T13:14:37.909Z - TypeError: [object Object] is not a id
+error 2020-11-27T14:20:57.934Z - TypeError: [object Object] is not a id
